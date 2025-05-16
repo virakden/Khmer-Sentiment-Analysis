@@ -1,2 +1,17 @@
-# Sentiment-Analysis-NLP-with-Python
-The project is a simple sentiment analysis using NLP. The project in written in python with Jupyter notebook. It shows how to do text preprocessing (removing of bad words, stop words, lemmatization, tokenization). It further shows how to save a trained model, and use the model in a real life suitation. The machine learning algorithm model used here is k-Nearest Neighbor which is used to build the model. Various performance evaluation techniques are used, and they include confusion matrix, and Scikit-learn libraries classification report which give the accuracy, precision, recall and f1- score preformance of the model.  The target values been classified are positive and negative review.
+# Khmer-Sentiment-Analysis
+
+> Sentiment Analysis for Khmer Language using Machine Learning (k-NN).  
+> Forked and modified from an open-source English NLP project to support Khmer text data.
+
+## Project Overview
+
+This project aims to build a sentiment analysis model for Khmer-language sentences using basic machine learning techniques. The original repository focused on English sentiment classification — this version adapts it by:
+
+- Replacing the dataset with Khmer-labeled sentences.
+- Applying Khmer-specific text preprocessing (stopword removal, tokenization).
+- Training a k-NN model using `scikit-learn`.
+- Visualizing performance metrics such as accuracy and classification report.
+
+## Course Info
+
+This project is part of a final assignment for the _Open Source Software_ course, modified and presented by a solo student.
